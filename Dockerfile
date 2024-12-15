@@ -1,3 +1,3 @@
-FROM nginx:latest
+FROM nginx:alpine-slim
 
-COPY ["./html", "/usr/share/nginx/"]
+COPY ["./html/", "/usr/share/nginx/html/"]
